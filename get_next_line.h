@@ -6,7 +6,7 @@
 /*   By: amtouham <amtouham@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/26 09:40:58 by amtouham          #+#    #+#             */
-/*   Updated: 2023/02/26 22:41:36 by amtouham         ###   ########.fr       */
+/*   Updated: 2023/02/26 23:08:31 by amtouham         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,9 @@
 # include <stdlib.h>
 # include <unistd.h>
 # include <fcntl.h>
+
+
+
 
 int		check_newline(char *buf);
 size_t	ft_strlen(const char *s);
