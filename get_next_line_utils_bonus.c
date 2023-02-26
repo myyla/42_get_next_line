@@ -6,7 +6,7 @@
 /*   By: amtouham <amtouham@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/26 21:40:41 by amtouham          #+#    #+#             */
-/*   Updated: 2023/02/26 23:09:29 by amtouham         ###   ########.fr       */
+/*   Updated: 2023/02/26 23:11:47 by amtouham         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,10 +21,6 @@ size_t	ft_strlen(const char *s)
 		i++;
 	return (i);
 }
-
-
-
-
 
 char	*ft_strdup(const char *s)
 {

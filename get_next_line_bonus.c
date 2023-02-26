@@ -6,7 +6,7 @@
 /*   By: amtouham <amtouham@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/26 21:34:38 by amtouham          #+#    #+#             */
-/*   Updated: 2023/02/26 23:09:39 by amtouham         ###   ########.fr       */
+/*   Updated: 2023/02/26 23:11:54 by amtouham         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,8 +35,6 @@ static char	*read2_newline(char *container, int fd)
 	}
 	return (free(buf), container);
 }
-
-
 
 static char	*get_line_from_container(char *container)
 {

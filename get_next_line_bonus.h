@@ -6,7 +6,7 @@
 /*   By: amtouham <amtouham@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/26 21:36:07 by amtouham          #+#    #+#             */
-/*   Updated: 2023/02/26 23:09:34 by amtouham         ###   ########.fr       */
+/*   Updated: 2023/02/26 23:11:51 by amtouham         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,8 +26,5 @@ char	*ft_strdup(const char *s);
 char	*ft_strjoin(const char *s1, const char *s2);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	*get_next_line(int fd);
-
-
-
 
 #endif
