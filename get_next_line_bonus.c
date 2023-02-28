@@ -6,7 +6,7 @@
 /*   By: amtouham <amtouham@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/26 21:34:38 by amtouham          #+#    #+#             */
-/*   Updated: 2023/02/26 23:11:54 by amtouham         ###   ########.fr       */
+/*   Updated: 2023/02/28 14:19:13 by amtouham         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 static char	*read2_newline(char *container, int fd)
 {
-	ssize_t	cnt;
-	char	*ptr;
 	char	*buf;
+	char	*ptr;
+	ssize_t	cnt;
 
 	cnt = 1337;
 	buf = (char *)malloc(BUFFER_SIZE + 1);

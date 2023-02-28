@@ -6,14 +6,16 @@
 /*   By: amtouham <amtouham@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/26 21:36:07 by amtouham          #+#    #+#             */
-/*   Updated: 2023/02/26 23:11:51 by amtouham         ###   ########.fr       */
+/*   Updated: 2023/02/28 14:14:57 by amtouham         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_BONUS_H
 # define GET_NEXT_LINE_BONUS_H
 
-# define BUFFER_SIZE 100
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 1337
+# endif
 
 # include <stdio.h>
 # include <stdlib.h>

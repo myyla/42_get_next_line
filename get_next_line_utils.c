@@ -6,11 +6,25 @@
 /*   By: amtouham <amtouham@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/26 10:16:00 by amtouham          #+#    #+#             */
-/*   Updated: 2023/02/26 23:11:44 by amtouham         ###   ########.fr       */
+/*   Updated: 2023/02/28 14:12:30 by amtouham         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
+
+int	check_newline(char *buf)
+{
+	size_t	i;
+
+	i = 0;
+	while (buf[i])
+	{
+		if (buf[i] == '\n')
+			return (1);
+		i++;
+	}
+	return (0);
+}
 
 size_t	ft_strlen(const char *s)
 {
@@ -35,20 +49,6 @@ char	*ft_strdup(const char *s)
 		p[i] = s[i];
 	p[i] = '\0';
 	return (p);
-}
-
-int	check_newline(char *buf)
-{
-	size_t	i;
-
-	i = 0;
-	while (buf[i])
-	{
-		if (buf[i] == '\n')
-			return (1);
-		i++;
-	}
-	return (0);
 }
 
 char	*ft_strjoin(char const *s1, char const *s2)
